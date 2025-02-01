@@ -9,25 +9,25 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('Graphics/Symbol 3 copy.png'); /* Replace with your background */
+    background-image: url('Graphics/Symbol 3 copy.png'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
 }
 
-/* Balloon styles */
+
 .balloon {
     position: absolute;
     width: 100px;
-    height: auto; /* Maintain image aspect ratio */
+    height: auto; 
     display: none;
-    background-size: contain; /* Ensure the whole balloon is visible */
+    background-size: contain; 
     background-position: center;
     background-repeat: no-repeat;
 }
 
-/* Different balloon images */
+
 .balloon1 {
     background-image: url('Graphics/Symbol 100001.png');
 }
@@ -45,10 +45,10 @@ body {
 }
 
 .balloon5 {
-    background-image: url('Graphics/Symbol 100004.png');
+    background-image: url('Graphics/Symbol 100005.png');
 }
 
-/* Pump button styling */
+
 #airPumpButton {
     padding: 15px 25px;
     font-size: 18px;

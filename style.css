@@ -1,0 +1,65 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('Graphics/Symbol 3 copy.png'); /* Replace with your background */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+/* Balloon styles */
+.balloon {
+    position: absolute;
+    width: 100px;
+    height: auto; /* Maintain image aspect ratio */
+    display: none;
+    background-size: contain; /* Ensure the whole balloon is visible */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Different balloon images */
+.balloon1 {
+    background-image: url('Graphics/Symbol 100001.png');
+}
+
+.balloon2 {
+    background-image: url('Graphics/Symbol 100002.png');
+}
+
+.balloon3 {
+    background-image: url('Graphics/Symbol 100003.png');
+}
+
+.balloon4 {
+    background-image: url('Graphics/Symbol 100004.png');
+}
+
+.balloon5 {
+    background-image: url('Graphics/Symbol 100004.png');
+}
+
+/* Pump button styling */
+#airPumpButton {
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+#airPumpButton:hover {
+    background-color: #45a049;
+}

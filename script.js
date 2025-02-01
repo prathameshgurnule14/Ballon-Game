@@ -20,7 +20,7 @@ function startNewBalloon() {
     balloon.style.width = `${balloonSize}px`;
     balloon.style.height = `${balloonSize * 1.5}px`;
     balloon.style.bottom = '0px'; // Reset position
-    balloon.style.left = `${Math.random() * (window.innerWidth - 100)}px`; // Random position
+    balloon.style.left = `${Math.random() * (window.innerWidth - 100)}px`; 
     
    
     balloon.className = 'balloon'; 
